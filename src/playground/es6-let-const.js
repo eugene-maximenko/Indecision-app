@@ -11,7 +11,7 @@ console.log('nameConst', nameConst)
 
 // Block scoping
 
-const  fullName = 'Jen Maximenko'
+const fullName = 'Jen Maximenko'
 let firstName
 
 if (fullName) {
