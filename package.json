@@ -6,7 +6,7 @@
   "author": "tiger3120 <zhek4770@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "babel-preset-env": "1.5.2",
+    "babel-preset-env": "^1.5.2",
     "babel-preset-react": "6.24.1"
   }
 }
