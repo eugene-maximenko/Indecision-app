@@ -9724,10 +9724,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 // install -> import -> use
 
 
-
-const template = __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('p', {}, 'testing 123');
+var template = /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", null, "THIS IS JSX FROM WEBPACK");
 __WEBPACK_IMPORTED_MODULE_1_react_dom___default.a.render(template, document.getElementById('app'));
-
 
 /***/ }),
 /* 82 */
