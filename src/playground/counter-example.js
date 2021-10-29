@@ -8,6 +8,7 @@ class Counter extends React.Component {
       count: 0
     };
   }
+<<<<<<< HEAD
   componentDidMount() {
     const stringCount = localStorage.getItem('count');
     const count = parseInt(stringCount, 10);
@@ -21,6 +22,27 @@ class Counter extends React.Component {
       localStorage.setItem('count', this.state.count);
     }
   }
+=======
+
+  componentDidMount() {
+    const stringCount = localStorage.getItem('count')
+    const count = parseInt(stringCount, 10)
+
+    if (!isNaN(count)) {
+      this.setState(() => ({ count }))
+    }
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    if (prevState.count !== this.state.count) {
+      localStorage.setItem('count', this.state.count)
+
+    }
+  }
+
+
+
+>>>>>>> 6f0b3e788f62b31511e79043b27f2780724e0c25
   handleAddOne() {
     this.setState((prevState) => {
       return {

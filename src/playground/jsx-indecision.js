@@ -54,4 +54,8 @@ const render = () => {
   ReactDOM.render(template, appRoot);
 };
 
+<<<<<<< HEAD
 render();
+=======
+render();
+>>>>>>> 6f0b3e788f62b31511e79043b27f2780724e0c25
